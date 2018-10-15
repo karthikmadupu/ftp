@@ -30,7 +30,7 @@ type ServerConn struct {
 	// Do not use EPSV mode
 	DisableEPSV bool
 
-	// Timezone that the server is in
+	// Timezone that the server located is in 
 	Location *time.Location
 
 	conn          *textproto.Conn
